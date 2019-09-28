@@ -33,7 +33,7 @@ public:
     vector<vector<int>> levelOrder(TreeNode * root) {
         queue<TreeNode*> levelNodes;
         vector<vector<int>> result;
-        std::vector<int> levelResult;
+        vector<int> levelResult;
         if (root == NULL) {
             return result;
         }
